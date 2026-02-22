@@ -5,4 +5,9 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
+  server: {
+    allowedHosts: [
+      'spot-minnesota-wonderful-reload.trycloudflare.com'
+    ]
+  }
 })
